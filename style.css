@@ -17,7 +17,7 @@ button {
 .error {
   position: absolute;
   width: 52%;
-  height: 50%;
+  height: fit-content;
   padding: 2px;
   border: 1px outset #dedede;
   border-color: #a3a3a3;
@@ -59,7 +59,8 @@ button {
   background-color: #e8e8d8;
 }
 .message {
-  width: 100%;
+  height: fit-content;
+  width: fit-content;
   margin-top: 25px;
   margin-left: 10px;
   font-family: Arial, sans-serif;
